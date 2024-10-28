@@ -3,7 +3,7 @@ from math import prod
 # Interpret numbers into Xs and Os
 def display_board(board):
 	print('=' * 30)
-	print('Here is the board:')
+	print('Here is the board:\n')
 	for r in range(len(board)):
 		for c in range(len(board[r])):
 			if board[r][c] == 2:
@@ -11,12 +11,12 @@ def display_board(board):
 			elif board[r][c] == 3:
 				print('O\t', end='')
 			else:
-				print('_\t', end='')
+				print('-\t', end='')
 		print('\n')
 
 # Show space numbers for reference
 def instructions():
-	print('Here are the spaces.')
+	print('Here are the spaces.\n')
 	print('1\t2\t3\n')
 	print('4\t5\t6\n')
 	print('7\t8\t9\n')
