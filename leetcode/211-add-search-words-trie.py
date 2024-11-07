@@ -31,7 +31,7 @@ class WordDictionary:
     def repr_helper(self, curr):
         if not curr:
             return ''
-        text = curr.val + f' {'END' if curr.is_end else ''} '
+        text = curr.val + f' {"END" if curr.is_end else ""} '
         for child in curr.children:
             text += self.repr_helper(child)
         return text
@@ -43,14 +43,12 @@ class WordDictionary:
         if not word:
             curr.is_end = True
             return
-        # print(f'ADDING {word[0]} TO {curr.val}')
         first = word[0]
         if not curr.has_child(first):
             curr.add_child(first)
         self.addWordHelper(curr.get_child(first), word[1:])
 
     def addWord(self, word: str) -> None:
-        # print('ADDING WORD:', word)
         self.addWordHelper(self.root, word)
 
     def searchHelper(self, curr, word):
@@ -58,10 +56,6 @@ class WordDictionary:
             return True
         if not word:
             return False
-        # print('='*20)
-        # print('CURRENT LETTER:', curr.val)
-        # print('CURRENT CHILDREN:', curr.children)
-        # print('CURRENT SEARCH:', word)
         first = word[0]
         if curr.has_child(first):
             return self.searchHelper(curr.get_child(first), word[1:])
