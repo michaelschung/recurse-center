@@ -6,6 +6,7 @@ def is_prime(n):
 			return False
 	return True
 
+# Not fast enough! Going to try another method: gradually reducing the target number
 def primes_up_to(n):
 	primes = []
 	for i in range(2, n):
