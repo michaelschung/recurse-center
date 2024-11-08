@@ -33,10 +33,25 @@ def largest_prime_factor(n):
 print(largest_prime_factor(600851475143))
 
 '''
-Found this alternate solution online, and I'm honestly confused about how it works.
-Why isn't x restricted to primes? How, then, is it guaranteed that the last factor
-	will always be prime?
-I'm assuming there's a super simple explanation here, but my brain is dead.
+Found this alternate solution online and it's so stupidly simple that I'm upset.
+The overall idea is the same as mine, but you don't even have to restrict the
+	divisions to primes.
+This works because since each successive prime is fully divided out, it's
+	guaranteed that later nonprimes will not be factors.
+For example: n = 185130
+	// 2 -> 92565 (no longer divisible by 2)
+	// 3 -> 30855
+	// 3 -> 10285 (no longer divisible by 3)
+	// 5 -> 2057 (no longer divisible by 5)
+		not divisible by 6 since 2 and 3 are already divided out
+		not divisible by 7
+		not divisible by 8 since 2 is already divided out
+		not divisible by 9 since 3 is already divided out
+		not divisible by 10 since 2 and 5 are already divided out
+	// 11 -> 187
+	// 11 -> 17 (no longer divisible by 11)
+		not divisible by 12, 13, 14, 15, or 16...
+	// 17 -> 1 (DONE)
 '''
 
 # from itertools import count
