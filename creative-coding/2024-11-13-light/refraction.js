@@ -25,6 +25,7 @@ function draw() {
     strokeWeight(0);
     fill(0);
     text("index: " + bgIndex, 5, height-5);
+    text("(click anywhere to reset)", width/2-50, 550);
 
     beam.show();
     beam.update(prisms);
@@ -124,4 +125,8 @@ class Prism {
         }
         return false;
     }
+}
+
+function mousePressed() {
+    setup();
 }
