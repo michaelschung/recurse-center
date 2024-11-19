@@ -14,28 +14,28 @@ cur.execute('''
     DROP TABLE IF EXISTS test_table
 ''')
 
-# cur.execute('''
-#             CREATE TABLE IF NOT EXISTS test_table (
-#                 id SERIAL PRIMARY KEY,
-#                 key INT,
-#                 val VARCHAR(255)
-#             )
-# ''')
+cur.execute('''
+            CREATE TABLE IF NOT EXISTS test_table (
+                id SERIAL PRIMARY KEY,
+                key INT,
+                val VARCHAR(255)
+            )
+''')
 
-# cur.execute('''
-#             INSERT INTO test_table (key, val) VALUES
-#                 (10, 'Hello'),
-#                 (20, 'Goodbye'),
-#                 (30, 'YO')
-# ''')
+cur.execute('''
+            INSERT INTO test_table (key, val) VALUES
+                (10, 'Hello'),
+                (20, 'Goodbye'),
+                (30, 'YO')
+''')
 
-# cur.execute('''
-#             SELECT *
-#             FROM test_table
-#             WHERE key < 40
-# ''')
+cur.execute('''
+            SELECT *
+            FROM test_table
+            WHERE key < 40
+''')
 
-# print(cur.fetchall())
+print(cur.fetchall())
 
 conn.commit()
 
