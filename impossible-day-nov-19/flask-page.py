@@ -1,4 +1,5 @@
 from sqlalchemy import create_engine, text
+from flask import Flask
 
 default = True
 
@@ -9,10 +10,13 @@ HOST = 'localhost'
 PORT = 8000
 DB_NAME = 'postgres'
 
+app = Flask(__name__)
+
 def my_query(conn, query):
     return conn.execute(text(query))
 
-def main():
+@app.route("/")
+def do_stuff():
     conn_str = f'{DIALECT}://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DB_NAME}'
     print(f'Connecting to {conn_str}...')
 
@@ -55,9 +59,8 @@ def main():
         """)
 
         # result = my_query(conn, """SELECT * FROM test_table""")
-        print(result.all())
+        # print(result.all())
 
         conn.commit()
 
-if __name__ == '__main__':
-    main()
+        return str(result.all())
