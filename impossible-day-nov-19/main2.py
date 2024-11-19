@@ -41,8 +41,6 @@ def main():
             WHERE key < 40
         """)
 
-        print(result.all())
-
         result = my_query(conn, """
             INSERT INTO test_table (key, val) VALUES
                 (30, 'YO')

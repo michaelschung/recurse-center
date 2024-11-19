@@ -1,6 +1,8 @@
 from sqlalchemy import create_engine, text
-from flask import Flask
+from flask import Flask, render_template
+from markupsafe import escape, Markup
 
+# DB CONFIG
 default = True
 
 DIALECT = 'postgresql+psycopg2'
@@ -10,8 +12,10 @@ HOST = 'localhost'
 PORT = 8000
 DB_NAME = 'postgres'
 
+# Flask config
 app = Flask(__name__)
 
+# Uses given connection to execute given query
 def my_query(conn, query):
     return conn.execute(text(query))
 
@@ -23,44 +27,11 @@ def do_stuff():
     engine = create_engine(conn_str)
 
     with engine.connect() as conn:
-        result = my_query(conn, """DROP TABLE IF EXISTS test_table""")
-
-        result = my_query(conn, """
-            CREATE TABLE IF NOT EXISTS test_table (
-                id SERIAL PRIMARY KEY,
-                key INT,
-                val VARCHAR(255)
-            )
-        """)
-
-        result = my_query(conn, """
-            INSERT INTO test_table (key, val) VALUES
-                (10, 'Hello'),
-                (20, 'Goodbye')
-        """)
-
         result = my_query(conn, """
             SELECT *
             FROM test_table
-            WHERE key < 40
         """)
-
-        print(result.all())
-
-        result = my_query(conn, """
-            INSERT INTO test_table (key, val) VALUES
-                (30, 'YO')
-        """)
-
-        result = my_query(conn, """
-            SELECT *
-            FROM test_table
-            WHERE key < 40
-        """)
-
-        # result = my_query(conn, """SELECT * FROM test_table""")
-        # print(result.all())
 
         conn.commit()
 
-        return str(result.all())
+        return render_template('home.html', results=result.all())
