@@ -2,7 +2,13 @@
 #include "lib.c"
 
 int main() {
-  int result = add(40, 2);
-  printf("40 + 2 = %d\n", result);
+  // LinkedList* ll = (LinkedList*) malloc(sizeof(LinkedList));
+  Node* head = NULL;
+  append(&head, 1);
+  append(&head, 2);
+  append(&head, 3);
+  delete(&head, 1);
+  delete(&head, 2);
+  print(head);
   return 0;
 }
