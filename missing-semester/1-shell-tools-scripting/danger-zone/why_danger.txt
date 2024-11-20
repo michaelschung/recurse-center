@@ -1,0 +1,4 @@
+this folder exists purely for testing the following command:
+    ls | xargs rm
+when run, this deletes all files in the folder.
+that's why this is the danger zone.
