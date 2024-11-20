@@ -1,7 +1,8 @@
 # NOTHING HAPPENS AFTER THE WHILE LOOP
 # I think this is because the `exit 1` in routine
 # (see weird.sh) makes this script exit as well.
-# Not sure how to fix that.
+# How do I run the routine without its exit code
+# affecting this program?
 
 source spin.sh
 
