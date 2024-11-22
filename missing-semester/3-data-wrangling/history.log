@@ -1,0 +1,1042 @@
+    1  python3 3-largest-prime-factor.py
+    2  python3 3-largest-prime-factor.py
+    3  python3 3-largest-prime-factor.py
+    4  python3 3-largest-prime-factor.py
+    5  python3 3-largest-prime-factor.py
+    6  python3 3-largest-prime-factor.py
+    7  python3 3-largest-prime-factor.py
+    8  python3 3-largest-prime-factor.py
+    9  python3 3-largest-prime-factor.py
+   10  python3 3-largest-prime-factor.py
+   11  python3 3-largest-prime-factor.py
+   12  python3 3-largest-prime-factor.py
+   13  python3 3-largest-prime-factor.py
+   14  python3 3-largest-prime-factor.py
+   15  python3 3-largest-prime-factor.py
+   16  python3 3-largest-prime-factor.py
+   17  python3 3-largest-prime-factor.py
+   18  python3 3-largest-prime-factor.py
+   19  python3 3-largest-prime-factor.py
+   20  python3 3-largest-prime-factor.py
+   21  python3 3-largest-prime-factor.py
+   22  python3 3-largest-prime-factor.py
+   23  python3 3-largest-prime-factor.py
+   24  python3 3-largest-prime-factor.py
+   25  python3 3-largest-prime-factor.py
+   26  python3 3-largest-prime-factor.py
+   27  python3 3-largest-prime-factor.py
+   28  python3 3-largest-prime-factor.py
+   29  python3 3-largest-prime-factor.py
+   30  python3 3-largest-prime-factor.py
+   31  python3 3-largest-prime-factor.py
+   32  python3 3-largest-prime-factor.py
+   33  python3 3-largest-prime-factor.py
+   34  python3 3-largest-prime-factor.py
+   35  python3 3-largest-prime-factor.py
+   36  python3 3-largest-prime-factor.py
+   37  python3 3-largest-prime-factor.py
+   38  python3 3-largest-prime-factor.py
+   39  python3 3-largest-prime-factor.py
+   40  python3 3-largest-prime-factor.py
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "started project euler stuff"
+   45  git push
+   46  git status
+   47  git add .
+   48  git commit -m "euler 3 not fast enough"
+   49  git push
+   50  python3 3-largest-prime-factor.py
+   51  python3 3-largest-prime-factor.py
+   52  python3 3-largest-prime-factor.py
+   53  python3 3-largest-prime-factor.py
+   54  python3 3-largest-prime-factor.py
+   55  python3 3-largest-prime-factor.py
+   56  python3 3-largest-prime-factor.py
+   57  python3 3-largest-prime-factor.py
+   58  python3 3-largest-prime-factor.py
+   59  python3 3-largest-prime-factor.py
+   60  python3 3-largest-prime-factor.py
+   61  python3 3-largest-prime-factor.py
+   62  python3 3-largest-prime-factor.py
+   63  python3 3-largest-prime-factor.py
+   64  python3 3-largest-prime-factor.py
+   65  python3 3-largest-prime-factor.py
+   66  python3 3-largest-prime-factor.py
+   67  python3 3-largest-prime-factor.py
+   68  python3 3-largest-prime-factor.py
+   69  python3 3-largest-prime-factor.py
+   70  python3 3-largest-prime-factor.py
+   71  python3 3-largest-prime-factor.py
+   72  python3 3-largest-prime-factor.py
+   73  python3 3-largest-prime-factor.py
+   74  python3 3-largest-prime-factor.py
+   75  python3 3-largest-prime-factor.py
+   76  python3 3-largest-prime-factor.py
+   77  python3 3-largest-prime-factor.py
+   78  python3 3-largest-prime-factor.py
+   79  python3 3-largest-prime-factor.py
+   80  python3 3-largest-prime-factor.py
+   81  python3 3-largest-prime-factor.py
+   82  python3 3-largest-prime-factor.py
+   83  python3 3-largest-prime-factor.py
+   84  python3 3-largest-prime-factor.py
+   85  python3 3-largest-prime-factor.py
+   86  python3 3-largest-prime-factor.py
+   87  python3 3-largest-prime-factor.py
+   88  python3 3-largest-prime-factor.py
+   89  python3 3-largest-prime-factor.py
+   90  python3 3-largest-prime-factor.py
+   91  python3 3-largest-prime-factor.py
+   92  python3 3-largest-prime-factor.py
+   93  python3 3-largest-prime-factor.py
+   94  python3 3-largest-prime-factor.py
+   95  python3 3-largest-prime-factor.py
+   96  python3 3-largest-prime-factor.py
+   97  python3 3-largest-prime-factor.py
+   98  python3 3-largest-prime-factor.py
+   99  python3 3-largest-prime-factor.py
+  100  python3 3-largest-prime-factor.py
+  101  python3 3-largest-prime-factor.py
+  102  python3 3-largest-prime-factor.py
+  103  python3 3-largest-prime-factor.py
+  104  python3 3-largest-prime-factor.py
+  105  python3 3-largest-prime-factor.py
+  106  python3 3-largest-prime-factor.py
+  107  python3 3-largest-prime-factor.py
+  108  python3 3-largest-prime-factor.py
+  109  python3 3-largest-prime-factor.py
+  110  python3 3-largest-prime-factor.py
+  111  python3 3-largest-prime-factor.py
+  112  python3 3-largest-prime-factor.py
+  113  python3 3-largest-prime-factor.py
+  114  python3 3-largest-prime-factor.py
+  115  python3 3-largest-prime-factor.py
+  116  python3 3-largest-prime-factor.py
+  117  python3 3-largest-prime-factor.py
+  118  python3 3-largest-prime-factor.py
+  119  python3 3-largest-prime-factor.py
+  120  python3 3-largest-prime-factor.py
+  121  python3 3-largest-prime-factor.py
+  122  git status
+  123  git add .
+  124  git commit -m "euler 3 works\n
+  125  git status
+  126  git push
+  127  git commit -m "euler 3 works\n"
+  128  git push
+  129  git status
+  130  git add .
+  131  git commit -m "way better solution below lol"
+  132  git push
+  133  python3 4-largest-palindrome-product.py
+  134  python3 4-largest-palindrome-product.py
+  135  python3 4-largest-palindrome-product.py
+  136  python3 4-largest-palindrome-product.py
+  137  python3 4-largest-palindrome-product.py
+  138  python3 4-largest-palindrome-product.py
+  139  python3 4-largest-palindrome-product.py
+  140  python3 4-largest-palindrome-product.py
+  141  python3 4-largest-palindrome-product.py
+  142  python3 4-largest-palindrome-product.py
+  143  python3 4-largest-palindrome-product.py
+  144  python3 4-largest-palindrome-product.py
+  145  python3 4-largest-palindrome-product.py
+  146  python3 4-largest-palindrome-product.py
+  147  python3 5-smallest-multiple.py
+  148  python3 5-smallest-multiple.py
+  149  python3 5-smallest-multiple.py
+  150  python3 5-smallest-multiple.py
+  151  python3 5-smallest-multiple.py
+  152  python3 5-smallest-multiple.py
+  153  python3 5-smallest-multiple.py
+  154  python3 5-smallest-multiple.py
+  155  python3 5-smallest-multiple.py
+  156  python3 5-smallest-multiple.py
+  157  python3 5-smallest-multiple.py
+  158  python3 5-smallest-multiple.py
+  159  python3 5-smallest-multiple.py
+  160  python3 5-smallest-multiple.py
+  161  python3 5-smallest-multiple.py
+  162  python3 5-smallest-multiple.py
+  163  python3 5-smallest-multiple.py
+  164  python3 5-smallest-multiple.py
+  165  python3 5-smallest-multiple.py
+  166  python3 5-smallest-multiple.py
+  167  python3 5-smallest-multiple.py
+  168  python3 5-smallest-multiple.py
+  169  python3 5-smallest-multiple.py
+  170  python3 5-smallest-multiple.py
+  171  python3 5-smallest-multiple.py
+  172  python3 5-smallest-multiple.py
+  173  python3 5-smallest-multiple.py
+  174  python3 5-smallest-multiple.py
+  175  python3 5-smallest-multiple.py
+  176  python3 5-smallest-multiple.py
+  177  python3 5-smallest-multiple.py
+  178  python3 5-smallest-multiple.py
+  179  python3 5-smallest-multiple.py
+  180  python3 5-smallest-multiple.py
+  181  python3 5-smallest-multiple.py
+  182  python3 5-smallest-multiple.py
+  183  git status
+  184  git add .
+  185  git commit -m "project euler 4 and 5"
+  186  git push
+  187  python3 6-sum-square-difference.py
+  188  python3 6-sum-square-difference.py
+  189  git status
+  190  git add .
+  191  git commit -m "project euler 6"
+  192  git push
+  193  git status
+  194  cd ..
+  195  git status
+  196  git add .
+  197  git commit -m "nature of code stuff"
+  198  git push
+  199  git status
+  200  git add .
+  201  git commit -m "project euler 7"
+  202  git push
+  203  vim .gitignore
+  204  ls
+  205  ls
+  206  vim .gitignore
+  207  git status
+  208  git add .
+  209  git commit -m "updated gitignore"
+  210  git push
+  211  date
+  212  echo $PATH
+  213  mkdir missing-semester
+  214  echo hello > hello.txt
+  215  cat hello.txt
+  216  cat < hello.txt
+  217  cat < hello.txt > hello2.txt
+  218  cat hello2.txt
+  219  cat < hello.txt >> hello2.txt
+  220  cat hello2.txt
+  221  ls -l / | tail -n1
+  222  ls -l / | tail -n1 > ls.txt
+  223  cat ls.txt
+  224  cd sys
+  225  cd /sys
+  226  sudo su
+  227  open .
+  228  cd missing-semester
+  229  ls -l / | tail -n1 tee ls.txt
+  230  ls
+  231  ls -l / | tail -n1 tee ls.txt
+  232  ls -l / | tail -n1 tee ls.txt
+  233  ls -l / | tail -n1 tee ls.txt
+  234  ls -l / | tail -n1 > ls.txt
+  235  ls -l / | tail -n1 | tee ls.txt
+  236  mkdir 0-course-overview+the-shell
+  237  open .
+  238  cd ..
+  239  git status
+  240  git add .
+  241  git commit -m "euler 8 and start of missing semester"
+  242  git push
+  243  ls
+  244  cd missing-semester
+  245  ls
+  246  cd 0-course-overview+the-shell
+  247  echo $SHELL
+  248  mkdir missing
+  249  cd missing
+  250  touch semester
+  251  open .
+  252  vim semester
+  253  ./semester
+  254  ls -l
+  255  sh ./semester
+  256  man chmod
+  257  chmod --help
+  258  chmod 755 semester
+  259  ls -l
+  260  ./semester
+  261  pwd
+  262  ./semester > last-modified.txt
+  263  open .
+  264  touch test
+  265  ls -l
+  266  echo $SHELL
+  267  rm test
+  268  ls -l
+  269  ./semester
+  270  mkdir creative-coding
+  271  mkdir 2024-11-13-light
+  272  ls
+  273  cd creative-coding/2024-11-13-light
+  274  cd ..
+  275  cd ..
+  276  git status
+  277  git add .
+  278  git status
+  279  git commit -m "made creative coding folder, did missing semester exercises, played with 3d stuff for nature of code"
+  280  git push
+  281  git status
+  282  git add .
+  283  git commit -m "click to reset refraction, self hosting slides\n"
+  284  git push
+  285  cd missing-semester
+  286  ls
+  287  cd 0-course-overview+the-shell
+  288  ls
+  289  cd missing
+  290  ls
+  291  ./semester
+  292  ./semester | grep 'last-modified'
+  293  ./semester | grep 'last-modified: [^$]+'
+  294  ./semester | grep 'last-modified: ([^$]+)'
+  295  ./semester | grep 'last-modified: *'
+  296  ./semester | grep 'last-modified'
+  297  ./semester | grep 'last-modified' > last-modified.txt
+  298  ls
+  299  cat last-modified.txt
+  300  ./semester | grep 'last-modified' | tee last-modified.txt
+  301  ./semester | grep 'last-modified: [[^$]]+'
+  302  ./semester | grep 'last-modified: [[:alnum:]]+'
+  303  ./semester | grep -Eo 'last-modified: [[:alnum:]]+'
+  304  ./semester | grep -Eo 'last-modified: [[^$]]+'
+  305  ./semester | grep -Eo 'last-modified: [[.]]+$'
+  306  ./semester | grep -Eo 'last-modified: [.]+$'
+  307  ./semester | grep -oP '(?<=last-modified: ).*'
+  308  ./semester | grep -o '[^ ]*$'
+  309  ./semester | grep 'last-modified:' | grep -o '[^ ]*$'
+  310  ./semester | grep 'last-modified:' | grep -o '[^T]*$'
+  311  ./semester | grep 'last-modified:'
+  312  ./semester | grep 'last-modified:' | grep -o 'Thu.*'
+  313  ./semester | grep 'last-modified:' | grep -o 'Thu.*' > last-modified.txt
+  314  cat last-modified.txt
+  315  ./semester | grep 'last-modified' | grep -o 'Thu.*' > last-modified.txt
+  316  cat last-modified.txt
+  317  ./semester | grep 'Thu,.*'
+  318  ls
+  319  cd ..
+  320  cd ..
+  321  mkdir 1-shell-tools+scripting
+  322  cd 1-shell-tools+scripting
+  323  vim mcd.sh
+  324  source mcd.sh
+  325  mcd test
+  326  cd ..
+  327  cat <(ls) <(ls ..)
+  328  vim example.sh
+  329  source example.sh
+  330  echo $?
+  331  source example.sh foobar
+  332  echo $?
+  333  vim file-with-foobar.txt
+  334  vim file-without-foobar.txt
+  335  source example.sh file-with-foobar.txt
+  336  echo $?
+  337  source example.sh file-without-foobar.txt
+  338  echo $?
+  339  ./example.sh file-with-foobar.txt
+  340  sudo ./example.sh file-with-foobar.txt
+  341  ls *.sh
+  342  touch project{1,2}/test{1,2}.py
+  343  mkdir project{1,2}
+  344  ls
+  345  touch project{1,2}/test{1,2}.py
+  346  vim script.py
+  347  ls
+  348  script.py
+  349  python script.py
+  350  python3 script.py
+  351  python3 script.py a b c
+  352  ./script.py
+  353  man -i
+  354  man mv
+  355  man rg
+  356  man mv
+  357  man mv
+  358  tldr mv
+  359  tldr ffmpeg
+  360  brew install tldr
+  361  tldr mv
+  362  tldr tldr
+  363  tldr grep
+  364  find . -name src -type d
+  365  locate missing
+  366  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+  367  locate missing
+  368  which ripgrep
+  369  brew install ripgrep
+  370  tldr ripgrep
+  371  tldr rg
+  372  man rg
+  373  history
+  374  history 1
+  375  history 1 | grep convert
+  376  cat example.sh fzf
+  377  tree
+  378  brew install tree
+  379  tree
+  380  root
+  381  which broot
+  382  brew install broot
+  383  broot
+  384  broot
+  385  cd ..
+  386  cd ..
+  387  ll
+  388  ls
+  389  open Designing-Data-Intensive-Applications.pdf
+  390  open Designing-Data-Intensive-Applications.pdf
+  391  git status
+  392  git add .
+  393  git status
+  394  git commit -m "missing semester notes, started dll, euler 9"
+  395  git push
+  396  git status
+  397  git add .
+  398  git commit -m "basic dll functions, included negative indexing"
+  399  git push
+  400  git status
+  401  git add .
+  402  git commit -m "reorg"
+  403  git push
+  404  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/7-nth-prime.py
+  405  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/7-nth-prime.py
+  406  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/7-nth-prime.py
+  407  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/7-nth-prime.py
+  408  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/7-nth-prime.py
+  409  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/7-nth-prime.py
+  410  open .
+  411  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  412  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  413  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  414  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  415  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  416  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  417  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  418  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  419  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  420  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  421  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  422  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  423  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/8-largest-product-in-series.py
+  424  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  425  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  426  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  427  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  428  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  429  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  430  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  431  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  432  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  433  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  434  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  435  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  436  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  437  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  438  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  439  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  440  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  441  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  442  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/project-euler/9-special-pythagorean-triplet.py
+  443  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  444  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  445  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  446  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  447  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  448  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  449  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  450  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  451  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  452  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  453  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  454  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  455  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  456  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  457  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  458  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  459  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  460  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  461  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  462  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  463  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  464  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  465  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  466  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  467  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  468  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  469  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  470  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  471  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  472  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  473  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  474  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  475  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  476  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  477  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  478  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  479  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  480  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  481  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  482  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  483  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  484  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  485  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  486  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  487  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  488  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  489  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  490  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  491  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  492  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  493  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  494  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  495  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  496  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  497  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  498  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  499  /opt/homebrew/bin/python3 /Users/michaelchung/Documents/random-code/recurse-center/cs-fundamentals/dll.py
+  500  open .
+  501  cd
+  502  brew install node@22
+  503  node -v
+  504  echo 'export PATH="/opt/homebrew/opt/node@22/bin:$PATH"' >> ~/.zshrc
+  505  node -v
+  506  which node
+  507  cat /usr/local/share/npm/bin
+  508  cat ~/.zshrc
+  509  vim ~/.zshrc
+  510  nvm -v
+  511  brew install node@22
+  512  which nvm
+  513  node -v
+  514  cd /Users/michaelchung
+  515  ls -l
+  516  ls -la
+  517  vim .bash_profile
+  518  ls -la
+  519  vim .bash_profile
+  520  ls -la
+  521  node -v
+  522  npm -v
+  523  ls
+  524  cd Documents
+  525  ls
+  526  cd random-code
+  527  ls
+  528  cd recurse-center
+  529  mkdir react-test
+  530  cd react-test
+  531  npm instsall --save react react-dom
+  532  npm install --save react react-dom
+  533  open .
+  534  cd ..
+  535  ls
+  536  cd impossible-day-nov-19
+  537  pip3 install --upgrade pip
+  538  pip3 --version
+  539  pip install --upgrade pip
+  540  pip3 install --upgrade pip
+  541  brew install pipx
+  542  cd backend
+  543  pipx install -r requirements.txt
+  544  pipx install requirements.txt
+  545  pip3 install fastapi
+  546  pipx install fastapi
+  547  pipx ensurepath
+  548  pipx completions
+  549  source ~/.bashrc
+  550  source ~/.bashrc
+  551  pwd
+  552  npm install -g typescript
+  553  ls
+  554  cd impossible-day-nov-19
+  555  ls
+  556  ls -l
+  557  ls backend
+  558  cd backend
+  559  pip install -r requirements.txt
+  560  pip3 install -r requirements.txt
+  561  python3.13 -m pip install --upgrade pip
+  562  cd /Users/michaelchung/Documents/random-code/recurse-center/impossible-day-nov-19/backend
+  563  pipx install fastapi
+  564  pipx install uvicorn
+  565  pipx install psycopg2-binary
+  566  pipx install psycopg2-binary
+  567  pip3 install psycopg2-binary
+  568  cd ..
+  569  cd frontend
+  570  ls
+  571  npm install
+  572  touch public/index.html
+  573  npm install typescript --save-dev
+  574  npm install react@latest react-dom@latest typescript@latest @types/react@latest
+  575  npx tsc --init
+  576  npm i --save-dev @types/react-dom
+  577  cd ..
+  578  python3 backend/db.py
+  579  pip install psycopg2-binary
+  580  pip3 install psycopg2-binary
+  581  pipx install psycopg2-binary
+  582  pip3 install psycopg2-binary
+  583  which python3
+  584  pip3 install psycopg2-binary
+  585  pipx install psycopg2
+  586  brew install psycopg2-binary
+  587  brew install psycopg2
+  588  pip3 install psycopg2-binary
+  589  python3 -m venv path/to/venv
+  590  source path/to/venv/bin/activate
+  591  python3 -m pip3 install psycopg2-binary
+  592  python3 -m pip install psycopg2-binary
+  593  pip install --upgrade pip
+  594  python backend/db.py
+  595  exit
+  596  pip3 install psycopg2-binary
+  597  pip3 install --upgrade pip
+  598  which psychopg
+  599  which psychopg2
+  600  which psychopg2-binary
+  601  brew instsall postgresql@16
+  602  brew install postgresql@16
+  603  echo 'export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"' >> ~/.zshrc
+  604  "/Applications/Postgres.app/Contents/Versions/17/bin/psql" -p8000 "postgres"
+  605  "/Applications/Postgres.app/Contents/Versions/17/bin/psql" -p8000 "michaelchung"
+  606  "/Applications/Postgres.app/Contents/Versions/17/bin/psql" -p8000 "template1"
+  607  "/Applications/Postgres.app/Contents/Versions/17/bin/psql" -p8000 "postgres"
+  608  which postgresql
+  609  postgresql --version
+  610  pip3 install psycopg2-binary
+  611  pip3 install sqlalchemy
+  612  cd Documents/random-code/recurse-center
+  613  ls
+  614  cd impossible-day-nov-19
+  615  python3 main.py
+  616  python3 main.py
+  617  python3
+  618  python3 main.py
+  619  python3 main.py
+  620  python3 main.py
+  621  python3 main.py
+  622  cd ..
+  623  vim .gitignore
+  624  git status
+  625  git add .
+  626  git status
+  627  git commit -m "runs postgres db locally and accesses from python"
+  628  cd impossible-day-nov-19
+  629  python3 main.py
+  630  python3 main2.py
+  631  python3 main2.py
+  632  python3 main2.py
+  633  python3 main2.py
+  634  python3 main2.py
+  635  python3 main2.py
+  636  python3 main2.py
+  637  git status
+  638  git add .
+  639  git commit -m "main.py uses psycopg2, main2.py uses sqlalchemy. latter seems to be working on its own copy of db, not causing persistent changes"
+  640  git push
+  641  pip3 install flask
+  642  git status
+  643  git status
+  644  vim ../.gitignore
+  645  git status
+  646  git add main.py
+  647  git commit -m "uncommented main.py"
+  648  git push
+  649  git status
+  650  git add .
+  651  git status
+  652  git add ..
+  653  git status
+  654  git status
+  655  git add .
+  656  git status
+  657  git commit -m "flask has entered the chat"
+  658  git push
+  659  mkdir templates
+  660  git status
+  661  git add .
+  662  git status
+  663  git commit -m "flask template"
+  664  git push
+  665  cd ..
+  666  cd missing-semester
+  667  ls
+  668  cd 1-shell-tools+scripting
+  669  ls
+  670  tldr ls
+  671  ls -laS
+  672  man ls
+  673  ls -laG
+  674  man ls
+  675  ls -laGc
+  676  man ls
+  677  ls -laGht
+  678  man ls
+  679  vim marco.sh
+  680  source marco.sh
+  681  marco
+  682  vim marco.sh
+  683  source marco.sh
+  684  marco
+  685  cd ..
+  686  cd ..
+  687  polo
+  688  git status
+  689  git add .
+  690  git commit -m "marco.sh"
+  691  git push
+  692  mv .  1-shell-tools-scripting
+  693  open .
+  694  git status
+  695  git add .
+  696  git commit -m "updated missing semester dir names"
+  697  git push
+  698  cd ..
+  699  ls
+  700  git pull
+  701  git status
+  702  git add .
+  703  git status
+  704  git commit -m "fixed dirnames"
+  705  git push
+  706  git pull
+  707  git pull --ff-only
+  708  git pull --rebase
+  709  ls
+  710  git push
+  711  cd 1-shell-tools-scripting
+  712  vim weird.sh
+  713  ls
+  714  weird
+  715  sh weird.sh
+  716  sh weird.sh
+  717  sh weird.sh
+  718  sh weird.sh
+  719  sh weird.sh
+  720  sh weird.sh
+  721  vim weird.sh
+  722  sh weird.sh
+  723  vim weird.sh
+  724  sh weird.sh
+  725  vim weird.sh
+  726  sh weird.sh
+  727  vim weird.sh
+  728  sh weird.sh
+  729  vim weird.sh
+  730  sh weird.sh
+  731  vim weird.sh
+  732  sh weird.sh
+  733  vim weird.sh
+  734  sh weird.sh
+  735  vim weird.sh
+  736  sh weird.sh
+  737  vim weird.sh
+  738  ls
+  739  sh weird.sh
+  740  ls
+  741  cat stdout.txt
+  742  vim weird.sh
+  743  sh weird.sh
+  744  ls
+  745  cat stderr.txt
+  746  rm std*.txt
+  747  ls
+  748  sh weird.sh
+  749  ls
+  750  cat stderr.txt
+  751  cat stdout.txt
+  752  vim weird.sh
+  753  sh weird.sh
+  754  rm std*.txt
+  755  vim weird.sh
+  756  rm std*.txt
+  757  sh weird.sh
+  758  cat stdout.txt
+  759  vim weird.sh
+  760  vim run_to_death.sh
+  761  vim weird.sh
+  762  source weird.sh
+  763  routine
+  764  routine
+  765  sh run_to_death.sh
+  766  vim run_to_death.sh
+  767  sh run_to_death.sh
+  768  vim run_to_death.sh
+  769  sh run_to_death.sh
+  770  sh run_to_death.sh
+  771  vim run_to_death.sh
+  772  sh run_to_death.sh
+  773  vim run_to_death.sh
+  774  sh run_to_death.sh
+  775  ls
+  776  rm std*.txt
+  777  sh run_to_death.sh
+  778  ls
+  779  cat stderr.txt
+  780  vim run_to_death.sh
+  781  rm std*.txt
+  782  sh run_to_death.sh
+  783  vim run_to_death.sh
+  784  sh run_to_death.sh
+  785  vim run_to_death.sh
+  786  rm std*.txt
+  787  sh run_to_death.sh
+  788  cat stdout.txt
+  789  vim run_to_death.sh
+  790  rm std*.txt
+  791  sh run_to_death.sh
+  792  vim run_to_death.sh
+  793  rm std*.txt
+  794  ls
+  795  sh run_to_death.sh
+  796  ls
+  797  cat stdout.txt
+  798  cat stderr.txt
+  799  rm std*.txt; sh run_to_death.sh
+  800  vim run_to_death.sh
+  801  rm std*.txt; sh run_to_death.sh
+  802  cat stderr.txt
+  803  cat stdout.txt
+  804  vim run_to_death.sh
+  805  rm std*.txt; sh run_to_death.sh
+  806  vim run_to_death.sh
+  807  rm std*.txt; sh run_to_death.sh
+  808  vim run_to_death.sh
+  809  rm std*.txt; sh run_to_death.sh
+  810  vim run_to_death.sh
+  811  cat stderr.txt
+  812  vim run_to_death.sh
+  813  rm std*.txt; sh run_to_death.sh
+  814  vim run_to_death.sh
+  815  rm std*.txt; sh run_to_death.sh
+  816  vim run_to_death.sh
+  817  rm std*.txt; sh run_to_death.sh
+  818  sh run_to_death.sh
+  819  rm std*.txt; sh run_to_death.sh
+  820  sh run_to_death.sh
+  821  ls
+  822  rm tee
+  823  vim run_to_death.sh
+  824  sh run_to_death.sh
+  825  ls
+  826  cat stderr.txt
+  827  cat stdout.txt
+  828  rm std*.txt; sh run_to_death.sh
+  829  vim run_to_death.sh
+  830  rm std*.txt; sh run_to_death.sh
+  831  ls
+  832  vim run_to_death.sh
+  833  rm std*.txt; sh run_to_death.sh
+  834  vim run_to_death.sh
+  835  cp run_to_death.sh run_to_death2.sh
+  836  vim run_to_death2.sh
+  837  ls
+  838  sh run_to_death2.sh
+  839  vim run_to_death2.sh
+  840  rm std*.txt; sh run_to_death2.sh
+  841  rm std*.txt; sh run_to_death2.sh
+  842  vim run_to_death.sh
+  843  rm run_to_death2.sh
+  844  ls
+  845  mv weird.sh spin.sh
+  846  vim run_to_death.sh
+  847  rm std*.txt; sh run_to_death.sh
+  848  vim run_to_death.sh
+  849  sh run_to_death.sh
+  850  vim run_to_death.sh
+  851  sh run_to_death.sh
+  852  vim run_to_death.sh
+  853  rm std*.txt; sh run_to_death.sh
+  854  ls
+  855  git status
+  856  git add .
+  857  git commit -m "problem3 - can't quite get it to work"
+  858  git push
+  859  vim run.sh
+  860  sh run.sh
+  861  vim run.sh
+  862  sh run.sh
+  863  vim run.sh
+  864  sh run.sh
+  865  vim run_to_death.sh
+  866  git status
+  867  vim run_to_death.sh
+  868  vim run_to_death.sh
+  869  vim run_to_death.sh
+  870  ls
+  871  ./run_to_death2.sh
+  872  chmod +x run_to_death2.sh
+  873  ./run_to_death2.sh
+  874  chmod +x routine.sh
+  875  ./run_to_death2.sh
+  876  ./run_to_death2.sh
+  877  ./run_to_death2.sh
+  878  ./run_to_death2.sh
+  879  ./run_to_death2.sh
+  880  ./run_to_death2.sh
+  881  git status
+  882  git add .
+  883  git status
+  884  git commit -m "problem 3 a new way"
+  885  git push
+  886  sh run_to_death2.sh
+  887  git status
+  888  git add .
+  889  git commit -m "comments"
+  890  git push
+  891  mkdir danger-zone
+  892  cd danger-zone
+  893  touch file{1,2,3}.py
+  894  ls
+  895  ls | xargs rm
+  896  ls
+  897  touch file{1,2,3}.py
+  898  vim why_danger.txt
+  899  cd ..
+  900  tldr xargs
+  901  mkdir html-repo
+  902  mkdir html-repo/sub1
+  903  mkdir html-repo/sub2
+  904  touch html-repo/file{1,2,3}.html
+  905  touch html-repo/sub{1,2}/file{4,5,6}.html
+  906  tree .
+  907  tldr find
+  908  find . -name '*.html'
+  909  tldr zip
+  910  find . -name '*.html' | xargs zip
+  911  find . -name '*.html' | xargs zip archive.zip
+  912  touch html-repo/sub{1,2}/file\ {4,5,6}.html
+  913  tree
+  914  find . -name '*.html' | xargs zip archive.zip
+  915  find . -name '*.html' | xargs -0 zip archive.zip
+  916  find . -name '*.html' -print0
+  917  find . -name '*.html' -print0 | xargs -0 zip archive.zip
+  918  find . -name '*.html'
+  919  git status
+  920  git add .
+  921  git commit -m "problem 4"
+  922  git push
+  923  find /path/to/directory -type f -printf '%T@ %p\n' | sort -k1,1nr | awk '{print $2}'
+  924  find /path/to/directory -type f -exec stat -f "%m %N" {} + | sort -k1,1nr | awk '{print $2}'
+  925  find . -type f -printf '%T@ %p\n' | sort -k1,1nr | awk '{print $2}'
+  926  find . -type f -exec stat -f "%m %N" {} + | sort -k1,1nr | awk '{print $2}'
+  927  git status
+  928  echo hello
+  929  cd Documents/random-code/recurse-center/cs-fundamentals/c
+  930  ls -la
+  931  open .
+  932  rm -rf ./*
+  933  ls
+  934  ls -la
+  935  rm .gitignore
+  936  mkdir doubly-linked-list
+  937  cd doubly-linked-list
+  938  npx degit neoeno/toy-c-project-template
+  939  make check
+  940  make run
+  941  cd ..
+  942  mkdir exercises
+  943  cd exercises
+  944  npx degit neoeno/toy-c-project-template
+  945  git status
+  946  cd ..
+  947  ls
+  948  git status
+  949  cd exercises
+  950  ls
+  951  cat .gitignore
+  952  cd ..
+  953  cd ..
+  954  cd ..
+  955  git status
+  956  git add .
+  957  git status
+  958  git commit -m "running c"
+  959  git push
+  960  cat $MARCO_DIR
+  961  cd missing-semester
+  962  ls
+  963  mkdir 2-editors-vim
+  964  cd 2-editors-vim
+  965  vim ~/.vimrc
+  966  vim ~/.vimrc
+  967  vim ~/.vimrc
+  968  vim ~/.vimrc
+  969  vim ~/.vimrc
+  970  vim ~/.vimrc
+  971  vim ~/.vimrc
+  972  vim ~/.vimrc
+  973  vim fb.py
+  974  python3 fb.py
+  975  python3 fb.py 10
+  976  python3 fb.py 20
+  977  vim fb.py
+  978  bindkey -v
+  979  tldr --update
+  980  cd ..
+  981  cd ..
+  982  ls
+  983  git status
+  984  vim .gitignore
+  985  git status
+  986  git add missing-semester
+  987  git status
+  988  git add .gitignore
+  989  git status
+  990  git commit -m "missing semester vim"
+  991  git push
+  992  git add .
+  993  git status
+  994  git commit -m "ll append, delete, print in c"
+  995  git push
+  996  cd random-fun
+  997  python3 arxiv-test.py
+  998  python3 arxiv-test.py > output.txt
+  999  python3 arxiv-test.py > output.txt
+ 1000  python3 arxiv-test.py | grep "category term"
+ 1001  vimtutor
+ 1002  ls
+ 1003  ls -la
+ 1004  cd Documents/random-code/recurse-center/missing-semester
+ 1005  ls
+ 1006  mkdir 2-editors-vim
+ 1007  cd 2-editors-vim
+ 1008  ls
+ 1009  vimtutor
+ 1010  vimtutor
+ 1011  ls
+ 1012  vim test.txt
+ 1013  vim highlight-test.txt
+ 1014  vim highlight-test.txt
+ 1015  vim highlight-test.txt
+ 1016  mkdir -p ~/.vim/pack/plugins/start
+ 1017  git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlp
+ 1018  vim highlight-test.txt
+ 1019  vim ~/.vimrc
+ 1020  vim highlight-test.txt
+ 1021  vim fb.py
+ 1022  cd ..
+ 1023  mkdir 3-data-wrangling
+ 1024  cd 3-data-wrangling
+ 1025  ls
+ 1026  git status
+ 1027  git add ..
+ 1028  git status
+ 1029  git commit -m "missing semester vim exercises"
+ 1030  git push
+ 1031  git add ../..
+ 1032  git status
+ 1033  git commit -m "systems design tests\n"
+ 1034  git push
+ 1035  clear
+ 1036  ls
+ 1037  ssh tsp journalctl
+ 1038  ssh tsp journalct1
+ 1039  grep ssh
+ 1040  tldr less
+ 1041  history
+ 1042  history 1
