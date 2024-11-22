@@ -3,7 +3,7 @@ TO RUN:
     flask --app homepage run --debug
 """
 from sqlalchemy import create_engine, text
-from flask import Flask, render_template
+from flask import Flask, request, jsonify, render_template
 from markupsafe import escape, Markup
 
 # DB CONFIG
@@ -23,7 +23,7 @@ app = Flask(__name__)
 def my_query(conn, query):
     return conn.execute(text(query))
 
-@app.route("/")
+@app.route('/')
 def do_stuff():
     conn_str = f'{DIALECT}://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DB_NAME}'
     print(f'Connecting to {conn_str}...')
@@ -32,7 +32,7 @@ def do_stuff():
 
     with engine.connect() as conn:
         result = my_query(conn, """
-            SELECT student_name, grade
+            SELECT student_name, grade, grade_id
             FROM grades g
             JOIN students s
             ON g.student_id = s.student_id
@@ -41,3 +41,9 @@ def do_stuff():
         conn.commit()
 
         return render_template('home.html', results=result.all())
+
+@app.route('/process', methods=['POST'])
+def process():
+    data = request.form.get('grabMe')
+    print(data)
+    return jsonify({'result': 'hi'})

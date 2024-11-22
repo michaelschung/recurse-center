@@ -2,18 +2,36 @@
 <html>
 <head>
     <title>grades weeeeee</title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <!-- For trash icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <h1>GRADES</h1>
     <table>
         {% for row in results %}
         <tr>
-            {% for val in row %}
-            <td>{{ val }}</td>
-            {% endfor %}
+            <form method="post" id="deleteForm">
+                {% for val in row %}
+                    {% if loop.last %}
+                    <td>
+                        <label for="grabMe">{{val}}</label>
+                        <input type="text" id="grabMe" name="grabMe">
+                    </td>
+                    {% else %}
+                    <td>{{val}}</td>
+                    {% endif %}
+                {% endfor %}
+                <td>
+                    <button type="submit"><i class="fa fa-trash-o"></i></button> 
+                    <!-- <button onclick="console.log($(this).parent().parent().children()[2].innerHTML)"><i class="fa fa-trash-o"></i></button> -->
+                </td>
+            </form>
         </tr>
         {% endfor %}
     </table>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/home.js') }}"></script>
 </body>
 </html>
