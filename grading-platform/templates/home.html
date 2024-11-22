@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<title>grades weeeeee</title>
-<table>
-    {% for row in results %}
-    <tr>
-        {% for val in row %}
-        <td>{{ val }}</td>
+<html>
+<head>
+    <title>grades weeeeee</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body>
+    <h1>GRADES</h1>
+    <table>
+        {% for row in results %}
+        <tr>
+            {% for val in row %}
+            <td>{{ val }}</td>
+            {% endfor %}
+        </tr>
         {% endfor %}
-    </tr>
-    {% endfor %}
-</table>
+    </table>
+</body>
+</html>

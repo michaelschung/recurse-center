@@ -19,40 +19,44 @@ def main():
     engine = create_engine(conn_str)
 
     with engine.connect() as conn:
-        result = my_query(conn, """DROP TABLE IF EXISTS test_table""")
+        result = my_query(conn, """DROP TABLE IF EXISTS grades, students""")
 
         result = my_query(conn, """
-            CREATE TABLE IF NOT EXISTS test_table (
-                id SERIAL PRIMARY KEY,
-                key INT,
-                val VARCHAR(255)
+            CREATE TABLE IF NOT EXISTS students (
+                student_id SERIAL PRIMARY KEY,
+                student_name VARCHAR(255)
             )
         """)
 
         result = my_query(conn, """
-            INSERT INTO test_table (key, val) VALUES
-                (10, 'Hello'),
-                (20, 'Goodbye')
+            CREATE TABLE IF NOT EXISTS grades (
+                grade_id SERIAL PRIMARY KEY,
+                student_id INT REFERENCES students,
+                grade INT
+            )
         """)
 
         result = my_query(conn, """
-            SELECT *
-            FROM test_table
-            WHERE key < 40
+            INSERT INTO students (student_name) VALUES
+                ('Emily'),
+                ('Michael'),
+                ('Walter')
         """)
 
         result = my_query(conn, """
-            INSERT INTO test_table (key, val) VALUES
-                (30, 'YO')
+            INSERT INTO grades (student_id, grade) VALUES
+                (1, 98),
+                (3, 104),
+                (2, 83)
         """)
 
         result = my_query(conn, """
-            SELECT *
-            FROM test_table
-            WHERE key < 40
+            SELECT student_name, grade
+            FROM grades g
+            JOIN students s
+            ON g.student_id = s.student_id
         """)
 
-        # result = my_query(conn, """SELECT * FROM test_table""")
         print(result.all())
 
         conn.commit()

@@ -1,3 +1,7 @@
+"""
+TO RUN:
+    flask --app homepage run --debug
+"""
 from sqlalchemy import create_engine, text
 from flask import Flask, render_template
 from markupsafe import escape, Markup
@@ -28,8 +32,10 @@ def do_stuff():
 
     with engine.connect() as conn:
         result = my_query(conn, """
-            SELECT *
-            FROM test_table
+            SELECT student_name, grade
+            FROM grades g
+            JOIN students s
+            ON g.student_id = s.student_id
         """)
 
         conn.commit()
