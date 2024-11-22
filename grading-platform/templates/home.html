@@ -12,16 +12,9 @@
     <table>
         {% for row in results %}
         <tr>
-            <form method="post" id="deleteForm">
+            <form class="deleteForm" id="deleteForm{{loop.index}}">
                 {% for val in row %}
-                    {% if loop.last %}
-                    <td>
-                        <label for="grabMe">{{val}}</label>
-                        <input type="text" id="grabMe" name="grabMe">
-                    </td>
-                    {% else %}
-                    <td>{{val}}</td>
-                    {% endif %}
+                <td>{{val}}</td>
                 {% endfor %}
                 <td>
                     <button type="submit"><i class="fa fa-trash-o"></i></button> 

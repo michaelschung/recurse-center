@@ -44,6 +44,6 @@ def do_stuff():
 
 @app.route('/process', methods=['POST'])
 def process():
-    data = request.form.get('grabMe')
-    print(data)
+    if request.method == 'POST':
+        print(request.view_args)
     return jsonify({'result': 'hi'})
