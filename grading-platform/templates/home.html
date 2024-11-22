@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<title>grades weeeeee</title>
+<table>
+    {% for row in results %}
+    <tr>
+        {% for val in row %}
+        <td>{{ val }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
