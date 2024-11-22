@@ -1,0 +1,10 @@
+  27 ./semester
+  29 rm
+  30 cat
+  42 sh
+  66 cd
+  83 ls
+  86 vim
+  95 /opt/homebrew/bin/python3
+ 162 git
+ 192 python3
