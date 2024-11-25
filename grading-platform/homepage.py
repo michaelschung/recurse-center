@@ -45,17 +45,28 @@ def homepage():
 
     return render_template('home.html', results=result.all())
 
-@app.route('/process', methods=['GET', 'POST'])
-def process():
-    if request.method == 'GET':
-        print('GET')
-        print(request.view_args)
-    elif request.method == 'POST':
-        print('POST')
+@app.route('/deleteGrade', methods=['GET', 'POST'])
+def deleteGrade():
+    if request.method == 'POST':
         id = dict(request.json)['id']
-        print(f'DELETING grade_id {id}')
         make_query(f"""
             DELETE FROM grades
             WHERE grade_id = {id}
         """)
-    return jsonify({'result': 'hi'})
+        return jsonify({'result': 'DELETED'})
+    return jsonify({'result': '?'})
+
+@app.route('/addGrade', methods=['POST'])
+def addGrade():
+    if request.method == 'POST':
+        new_grade = request.form
+        name = new_grade.get('inputName')
+        grade = new_grade.get('inputGrade')
+        make_query(f"""
+            INSERT INTO grades (student_id, grade)
+            SELECT student_id, {grade}
+            FROM students
+            WHERE student_name = '{name}'
+        """)
+        return jsonify({'result': 'ADDED'})
+    return jsonify({'result': '?'})
