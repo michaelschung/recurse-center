@@ -12,23 +12,16 @@
     <table>
         {% for row in results %}
         <tr>
-            <form class="deleteForm" id="deleteForm{{loop.index}}">
-                {% for val in row %}
-                <td>{{val}}</td>
-                {% endfor %}
-                <td>
-                    <button type="submit"><i class="fa fa-trash-o"></i></button> 
-                    <!-- <button onclick="console.log($(this).parent().parent().children()[2].innerHTML)"><i class="fa fa-trash-o"></i></button> -->
-                </td>
-            </form>
+            {% for val in row %}
+            <td>{{val}}</td>
+            {% endfor %}
+            <td>
+                <button onclick="deleteGrade($(this))"><i class="fa fa-trash-o"></i></button>
+                <!-- <button onclick="console.log($(this).parent().parent().children()[2].innerHTML)"><i class="fa fa-trash-o"></i></button> -->
+            </td>
         </tr>
         {% endfor %}
     </table>
-    <form id="dataForm">
-        <label for="inputData">Input Data</label>
-        <input type="text" id="inputData" name="inputData">
-        <button type="submit">Submit</button>
-    </form>
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/home.js') }}"></script>
 </body>
