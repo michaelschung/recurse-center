@@ -1,0 +1,100 @@
+Timestamp                       Thread     Type        Activity             PID    TTL  
+2024-10-26 13:24:26.785391-0400 0x0        Timesync    0x0                  0      0    === log class: TTL more than 14 days begins
+2024-10-26 19:00:44.226014-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidating
+2024-10-26 19:00:44.226017-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidated
+2024-10-26 19:09:16.107384-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-26 19:09:45.713384-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidating
+2024-10-26 19:09:45.713388-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidated
+2024-10-26 20:04:06.689939-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-26 21:05:56.784401-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-26 22:08:13.812072-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-26 23:02:54.489000-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 00:05:31.800105-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 00:37:10.666772-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidating
+2024-10-27 00:37:10.666777-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidated
+2024-10-27 00:37:22.772216-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidating
+2024-10-27 00:37:22.772221-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Invalidated
+2024-10-27 01:10:45.783376-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 02:02:07.774905-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 03:13:49.734325-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 04:11:05.751569-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 05:18:35.734044-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 06:07:07.711843-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 07:02:38.701301-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 08:06:21.693876-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 09:15:02.423506-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 10:06:57.685240-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 11:14:53.207224-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 12:16:22.650557-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 13:18:28.632602-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 13:53:47.304144-0400 0x125f279  Default     0x0                  1589   2    coreauthd: (LaunchServices) [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key <private>
+2024-10-27 14:04:53.995660-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 14:05:21.049101-0400 0x1262159  Default     0x0                  15572  3    storeaccountd: (Accounts) [com.apple.accounts:core] "The connection to ACDAccountStore was invalidated."
+2024-10-27 14:24:25.871871-0400 0x12614a6  Default     0x0                  1589   2    coreauthd: (LaunchServices) [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key <private>
+2024-10-27 14:27:45.731495-0400 0x1249e86  Default     0x0                  24786  7    mbuseragent: [com.apple.macbuddy:MacBuddyX] Express update task running...
+2024-10-27 14:27:45.734757-0400 0x1249e86  Default     0x0                  24786  7    mbuseragent: [com.apple.macbuddy:MacBuddyX] update express settings activity skipped
+2024-10-27 15:07:15.755256-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 15:51:46.409618-0400 0x126bc75  Default     0x0                  1742   3    seserviced: (Accounts) [com.apple.accounts:core] "The connection to ACDAccountStore was invalidated."
+2024-10-27 16:02:29.948360-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 17:04:10.608785-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 18:09:48.594122-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 19:10:14.576528-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 20:02:28.615472-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 21:02:29.186334-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 22:10:31.515324-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-27 23:04:29.538457-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 00:15:09.437525-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 01:12:03.705656-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 02:08:37.516014-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 03:02:46.513458-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 04:16:00.453937-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 04:58:04.858508-0400 0x12a0d58  Default     0x0                  15572  3    storeaccountd: (Accounts) [com.apple.accounts:core] "The connection to ACDAccountStore was invalidated."
+2024-10-28 05:13:46.460516-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 05:58:16.238160-0400 0x12a137f  Default     0x0                  1589   2    coreauthd: (LaunchServices) [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key <private>
+2024-10-28 05:58:16.240164-0400 0x12a165d  Default     0x0                  1278   2    symptomsd: (LaunchServices) [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key <private>
+2024-10-28 06:15:29.437525-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 07:02:44.455567-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 08:16:11.439078-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 09:18:09.411056-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 10:10:42.349211-0400 0x0        Timesync    0x0                  0      0    === system wallclock time adjusted
+2024-10-28 10:46:45.862990-0400 0x12ab5cc  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] registered <private> (status 0, old id 0x79dcc) as unit 0x79dd0 on behalf of pid 91574
+2024-10-28 10:46:45.895144-0400 0x12abb5e  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] (null)/Unknown Persona:5:4:1:0:_LSServerRegisterItemInfo begin
+2024-10-28 10:46:45.899711-0400 0x12abb5e  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:5:1:1:Building bundle record for app
+2024-10-28 10:46:45.899843-0400 0x12abb5e  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:5:2:1:Built bundle record for app
+2024-10-28 10:46:45.900481-0400 0x12abb5e  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:registration] bundle record for <private> will be registered trusted.
+2024-10-28 10:46:45.900881-0400 0x12abb5e  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:4:2:1:_LSServerRegisterItemInfo result = 0
+2024-10-28 10:46:45.900915-0400 0x12abb5e  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] registered <private> (status 0, old id 0x79dcc) as unit 0x79dd4 on behalf of pid 91574
+2024-10-28 10:46:45.985412-0400 0x12abbbc  Default     0x0                  1589   2    coreauthd: (LaunchServices) [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key <private>
+2024-10-28 10:46:47.561604-0400 0x12ab88e  Default     0x0                  1278   2    symptomsd: (LaunchServices) [com.apple.launchservices:db] NotifyToken::RegisterDispatch(com.apple.LaunchServices.database) fired for session key <private>
+2024-10-28 10:46:47.613500-0400 0x12abb5c  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] client 34900 will unregister unit 79dd4 options 0
+2024-10-28 10:46:47.687636-0400 0x12abb59  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] (null)/Unknown Persona:5:4:1:0:_LSServerRegisterItemInfo begin
+2024-10-28 10:46:47.695540-0400 0x12abb59  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:5:1:1:Building bundle record for app
+2024-10-28 10:46:47.695690-0400 0x12abb59  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:5:2:1:Built bundle record for app
+2024-10-28 10:46:47.696046-0400 0x12abb59  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:registration] bundle record for <private> will be registered launch-disabled.
+2024-10-28 10:46:47.696511-0400 0x12abb59  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:4:2:1:_LSServerRegisterItemInfo result = 0
+2024-10-28 10:46:47.696521-0400 0x12abb59  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] registered <private> (status 0, old id 0x0) as unit 0x79dd8 on behalf of pid 34900
+2024-10-28 10:46:47.743499-0400 0x12abb5c  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] (null)/Unknown Persona:5:4:1:0:_LSServerRegisterItemInfo begin
+2024-10-28 10:46:47.749600-0400 0x12abb5c  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:5:1:1:Building bundle record for app
+2024-10-28 10:46:47.749747-0400 0x12abb5c  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:5:2:1:Built bundle record for app
+2024-10-28 10:46:47.750011-0400 0x12abb5c  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:registration] bundle record for <private> will be registered launch-disabled.
+2024-10-28 10:46:47.750372-0400 0x12abb5c  Default     0x0                  1527   14   lsd: (MobileInstallation) [com.apple.appinstallation:TransactionLog] company.thebrowser.Browser/Unknown Persona:5:4:2:1:_LSServerRegisterItemInfo result = 0
+2024-10-28 10:46:47.750381-0400 0x12abb5c  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] registered <private> (status 0, old id 0x79dd8) as unit 0x79ddc on behalf of pid 34900
+2024-10-28 10:46:56.529149-0400 0x12abb5e  Default     0x0                  1527   2    lsd: (CoreServicesStore) [com.apple.coreservicesstore:GC] Writing store (no GC) 0x11d98a988 with writer 0x16d3022d0
+2024-10-28 10:46:56.552483-0400 0x12abb5e  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:db] _LSSessionSave: saved database for session <private>
+2024-10-28 10:46:58.724574-0400 0x12abb5e  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] LSExceptions shared instance invalidated for timeout.
+2024-10-28 10:48:20.659558-0400 0x12aca66  Default     0x0                  1742   3    seserviced: (Accounts) [com.apple.accounts:core] "The connection to ACDAccountStore was invalidated."
+2024-10-28 10:51:47.744189-0400 0x12ae2c3  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52197 registering self
+2024-10-28 10:51:55.127219-0400 0x12aeaa7  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52227 registering self
+2024-10-28 10:51:55.147455-0400 0x12aeaa6  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52231 registering self
+2024-10-28 10:51:55.147590-0400 0x12aeaa6  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] Failed to register <private>: -10811
+2024-10-28 10:51:55.199408-0400 0x12aedb5  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52228 registering self
+2024-10-28 10:51:55.365698-0400 0x12ae2c3  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52233 registering self
+2024-10-28 10:51:55.471723-0400 0x12aeaa6  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52229 registering self
+2024-10-28 10:51:55.540890-0400 0x12aeaa7  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52236 registering self
+2024-10-28 10:51:55.602288-0400 0x12ae2c3  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52238 registering self
+2024-10-28 10:51:55.833423-0400 0x12aee0c  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] client 52247 will unregister unit 79c30 options 0
+2024-10-28 10:51:55.850599-0400 0x12ae2c3  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] client 52247 will unregister unit 79db4 options 0
+2024-10-28 10:51:55.912860-0400 0x12ae2c3  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] pid 52249 registering self
+2024-10-28 10:51:55.912942-0400 0x12ae2c3  Default     0x0                  1527   2    lsd: (LaunchServices) [com.apple.launchservices:default] Failed to register <private>: -10811
+2024-10-28 10:51:56.365561-0400 0x21f7     Default     0x0                  1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] ### Interrupted
+2024-10-28 10:51:56.365592-0400 0x21f7     Default     0x2943f5c            1694   3    nearbyd: (CoreUtils) [com.apple.sharing:SFDeviceDiscovery] Restarting after interruption
