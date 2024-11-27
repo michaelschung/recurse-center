@@ -2,31 +2,9 @@
 TO RUN:
     flask --app homepage run --debug
 """
-from sqlalchemy import create_engine, text
-from sqlalchemy.orm import DeclarativeBase
-from flask import Flask, request, jsonify, render_template
-from flask_sqlalchemy import SQLAlchemy
-from markupsafe import escape, Markup
+from mypackage import *
 
-# DB config
-default = True
-DIALECT = 'postgresql+psycopg2'
-USERNAME = 'postgres' if default else 'michaelchung'
-PASSWORD = 'password' if default else 'yay'
-HOST = 'localhost'
-PORT = 8000
-DB_NAME = 'postgres'
-
-# Flask config
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = f'{DIALECT}://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/{DB_NAME}' 
-
-# SQLAlchemy config
-class Base(DeclarativeBase):
-    pass
-
-db = SQLAlchemy(model_class=Base)
-db.init_app(app)
+app = create_app(__name__)
 
 # Executes text query
 def make_query(query):
