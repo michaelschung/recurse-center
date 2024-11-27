@@ -53,21 +53,5 @@ def addGrade():
             FROM students
             WHERE student_name = '{name}'
         """)
-        # make_query(f"""
-        #     WITH new_student AS (
-        #         INSERT INTO students (student_name)
-        #         SELECT '{name}'
-        #         WHERE NOT EXISTS (
-        #             SELECT 1 FROM students WHERE student_name = '{name}'
-        #         )
-        #         RETURNING student_id
-        #     )
-        #     INSERT INTO grades (student_id, grade)
-        #     SELECT
-        #         COALESCE((SELECT student_id FROM new_student), student_id),
-        #         {grade}
-        #     FROM students
-        #     WHERE student_name = '{name}'
-        # """)
         return jsonify({'result': 'ADDED'})
     return jsonify({'result': '?'})
