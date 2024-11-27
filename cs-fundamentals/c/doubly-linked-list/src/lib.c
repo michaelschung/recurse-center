@@ -1,23 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Node {
-  int val;
-  struct Node* next;
-};
-
 typedef struct Node Node;
 
-// typedef struct {
-//   int val;
-//   Node* next;
-// } Node;
-
-// typedef struct {
-//   Node* head;
-//   Node* tail;
-//   int size;
-// } LinkedList;
+struct Node {
+  int val;
+  Node* next;
+};
 
 Node* createNode(int val) {
   Node* newNode = malloc(sizeof(Node));
@@ -26,13 +15,13 @@ Node* createNode(int val) {
   return newNode;
 }
 
-void append(Node** head, int val) {
+void append(Node** pHead, int val) {
   Node* newNode = createNode(val);
-  if (*head == NULL) {
-    *head = newNode;
+  if (*pHead == NULL) {
+    *pHead = newNode;
     return;
   }
-  Node* curr = *head;
+  Node* curr = *pHead;
   while (curr->next != NULL) {
     curr = curr->next;
   }
@@ -68,10 +57,10 @@ int delete(Node** head, int val) {
 }
 
 void print(Node* head) {
-  Node* curr = head;
-  while (curr != NULL) {
-    printf("%d -> ", curr->val);
-    curr = curr->next;
+  // Node* curr = head;
+  while (head != NULL) {
+    printf("%d -> ", head->val);
+    head = head->next;
   }
   printf("NULL\n");
 }
