@@ -11,7 +11,7 @@ int main() {
   insert(tree, 9);
   print(tree);
   printSize(tree);
-  delete(tree, 5);
+  delete(tree, 10);
   print(tree);
   printSize(tree);
   return 0;

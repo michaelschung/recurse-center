@@ -13,22 +13,24 @@ typedef struct BST BST;
 
 struct BST {
   Node* root;
+  int size;
 };
 
 BST* createBST() {
   BST* tree = malloc(sizeof(BST));
   tree->root = NULL;
+  tree->size = 0;
   return tree;
 }
 
-int getSize(Node* root) {
+// Not used, just for fun
+int getSizeRecursive(Node* root) {
   if (root == NULL) return 0;
   return getSize(root->left) + getSize(root->right) + 1;
 }
 
 void printSize(BST* tree) {
-  int size = getSize(tree->root);
-  printf("SIZE: %d\n", size);
+  printf("SIZE: %d\n", tree->size);
 }
 
 void printHelper(Node* root) {
@@ -64,6 +66,7 @@ Node* insertHelper(Node* root, int val) {
 }
 
 void insert(BST* tree, int val) {
+  tree->size++;
   tree->root = insertHelper(tree->root, val);
 }
 
@@ -75,7 +78,7 @@ int findSuccessor(Node* root) {
   return root->val;
 }
 
-Node* deleteHelper(Node* root, int val) {
+Node* deleteHelper(int* pSize, Node* root, int val) {
   // If fell off the edge, return
   if (root == NULL) return NULL;
   // If found node to delete, three options
@@ -84,11 +87,13 @@ Node* deleteHelper(Node* root, int val) {
     if (root->left == NULL) {
       Node* temp = root->right;
       free(root);
+      *pSize = *pSize - 1;
       return temp;
     }
     if (root->right == NULL) {
       Node* temp = root->left;
       free(root);
+      *pSize = *pSize - 1;
       return temp;
     }
     // Two child case
@@ -96,15 +101,16 @@ Node* deleteHelper(Node* root, int val) {
     int successor = findSuccessor(root);
     // Replace this val with sucessor val
     root->val = successor;
-    root->right = deleteHelper(root->right, successor);
+    root->right = deleteHelper(pSize, root->right, successor);
   } else if (val < root->val) {
-    root->left = deleteHelper(root->left, val);
+    root->left = deleteHelper(pSize, root->left, val);
   } else {
-    root->right = deleteHelper(root->right, val);
+    root->right = deleteHelper(pSize, root->right, val);
   }
   return root;
 }
 
 void delete(BST* tree, int val) {
-  tree->root = deleteHelper(tree->root, val);
+  // Pass pointer to tree size to make it changeable
+  tree->root = deleteHelper(&(tree->size), tree->root, val);
 }
