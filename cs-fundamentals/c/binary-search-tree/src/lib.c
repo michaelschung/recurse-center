@@ -26,7 +26,7 @@ BST* createBST() {
 // Not used, just for fun
 int getSizeRecursive(Node* root) {
   if (root == NULL) return 0;
-  return getSize(root->left) + getSize(root->right) + 1;
+  return getSizeRecursive(root->left) + getSizeRecursive(root->right) + 1;
 }
 
 void printSize(BST* tree) {
@@ -113,4 +113,38 @@ Node* deleteHelper(int* pSize, Node* root, int val) {
 void delete(BST* tree, int val) {
   // Pass pointer to tree size to make it changeable
   tree->root = deleteHelper(&(tree->size), tree->root, val);
+}
+
+Node* findHelper(Node* root, int val) {
+  if (root == NULL) {
+    return NULL;
+  }
+  if (root->val == val) {
+    return root;
+  }
+  if (val < root->val) {
+    return findHelper(root->left, val);
+  }
+  return findHelper(root->right, val);
+}
+
+Node* find(BST* tree, int val) {
+  return findHelper(tree->root, val);
+}
+
+int containsHelper(Node* root, int val) {
+  if (root == NULL) {
+    return 0;
+  }
+  if (root->val == val) {
+    return 1;
+  }
+  if (val < root->val) {
+    return containsHelper(root->left, val);
+  }
+  return containsHelper(root->right, val);
+}
+
+int contains(BST* tree, int val) {
+  return containsHelper(tree->root, val);
 }
