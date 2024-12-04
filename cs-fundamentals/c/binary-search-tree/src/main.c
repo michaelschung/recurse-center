@@ -2,14 +2,17 @@
 #include "lib.c"
 
 int main() {
-  // LinkedList* ll = (LinkedList*) malloc(sizeof(LinkedList));
-  Node* head = NULL;
-  append(&head, 1);
-  append(&head, 2);
-  append(&head, 3);
-  print(head);
-  delete(&head, 1);
-  delete(&head, 2);
-  print(head);
+  BST* tree = createBST();
+  insert(tree, 5);
+  insert(tree, 2);
+  insert(tree, 8);
+  insert(tree, 6);
+  insert(tree, 10);
+  insert(tree, 9);
+  print(tree);
+  printSize(tree);
+  delete(tree, 10);
+  print(tree);
+  printSize(tree);
   return 0;
 }

@@ -5,62 +5,112 @@ typedef struct Node Node;
 
 struct Node {
   int val;
-  Node* next;
+  Node* left;
+  Node* right;
 };
+
+typedef struct BST BST;
+
+struct BST {
+  Node* root;
+  int size;
+};
+
+BST* createBST() {
+  BST* tree = malloc(sizeof(BST));
+  tree->root = NULL;
+  tree->size = 0;
+  return tree;
+}
+
+// Not used, just for fun
+int getSizeRecursive(Node* root) {
+  if (root == NULL) return 0;
+  return getSize(root->left) + getSize(root->right) + 1;
+}
+
+void printSize(BST* tree) {
+  printf("SIZE: %d\n", tree->size);
+}
+
+void printHelper(Node* root) {
+  if (root == NULL) return;
+  printHelper(root->left);
+  printf("%d ", root->val);
+  printHelper(root->right);
+}
+
+void print(BST* tree) {
+  printHelper(tree->root);
+  printf("\n");
+}
 
 Node* createNode(int val) {
   Node* newNode = malloc(sizeof(Node));
   newNode->val = val;
-  newNode->next = NULL;
+  newNode->left = NULL;
+  newNode->right = NULL;
   return newNode;
 }
 
-void append(Node** pHead, int val) {
-  Node* newNode = createNode(val);
-  if (*pHead == NULL) {
-    *pHead = newNode;
-    return;
+Node* insertHelper(Node* root, int val) {
+  if (root == NULL) {
+    return createNode(val);
   }
-  Node* curr = *pHead;
-  while (curr->next != NULL) {
-    curr = curr->next;
+  if (val < root->val) {
+    root->left = insertHelper(root->left, val);
+  } else {
+    root->right = insertHelper(root->right, val);
   }
-  curr->next = newNode;
+  return root;
 }
 
-// 0 = success, 1 = empty, 2 = val not found
-int delete(Node** head, int val) {
-  // If empty list
-  if (*head == NULL) {
-    return 1;
+void insert(BST* tree, int val) {
+  tree->size++;
+  tree->root = insertHelper(tree->root, val);
+}
+
+int findSuccessor(Node* root) {
+  root = root->right;
+  while (root->left != NULL) {
+    root = root->left;
   }
-  // If deleting head
-  if ((*head)->val == val) {
-    Node* temp = *head;
-    *head = (*head)->next;
-    free(temp);
-    return 0;
-  }
-  // Otherwise
-  Node* curr = *head;
-  while (curr->next != NULL) {
-    if (curr->next->val == val) {
-      Node* temp = curr->next;
-      curr->next = curr->next->next;
-      free(temp);
-      return 0;
+  return root->val;
+}
+
+Node* deleteHelper(int* pSize, Node* root, int val) {
+  // If fell off the edge, return
+  if (root == NULL) return NULL;
+  // If found node to delete, three options
+  if (val == root->val) {
+    // First two ifs fulfill leaf case and one child case
+    if (root->left == NULL) {
+      Node* temp = root->right;
+      free(root);
+      *pSize = *pSize - 1;
+      return temp;
     }
-    curr = curr->next;
+    if (root->right == NULL) {
+      Node* temp = root->left;
+      free(root);
+      *pSize = *pSize - 1;
+      return temp;
+    }
+    // Two child case
+    // Find inorder successor
+    int successor = findSuccessor(root);
+    // Replace this val with sucessor val
+    root->val = successor;
+    root->right = deleteHelper(pSize, root->right, successor);
+  } else if (val < root->val) {
+    root->left = deleteHelper(pSize, root->left, val);
+  } else {
+    root->right = deleteHelper(pSize, root->right, val);
   }
-  // If val not found
-  return 2;
+  return root;
 }
 
-void print(Node* head) {
-  // Node* curr = head;
-  while (head != NULL) {
-    printf("%d -> ", head->val);
-    head = head->next;
-  }
-  printf("NULL\n");
+void delete(BST* tree, int val) {
+  // Pass pointer to tree size to make it changeable
+  tree->root = deleteHelper(&(tree->size), tree->root, val);
 }
