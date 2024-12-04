@@ -97,7 +97,19 @@ class RBTree:
         root.p = r_child
 
     def r_rotate(self, root):
-        pass
+        l_child = root.left
+        root.left = l_child.right
+        if l_child.right is not None:
+            l_child.right.p = root
+        l_child.p = root.p
+        if root.p is None:
+            self.root = l_child
+        elif root == root.p.right:
+            root.p.right = l_child
+        else:
+            root.p.left = l_child
+        l_child.right = root
+        root.p = l_child
 
 tree = RBTree()
 tree.insert(2)
@@ -106,4 +118,5 @@ tree.insert(4)
 tree.insert(3)
 tree.insert(5)
 tree.l_rotate(tree.root)
+tree.r_rotate(tree.root)
 print(tree.verbose())
