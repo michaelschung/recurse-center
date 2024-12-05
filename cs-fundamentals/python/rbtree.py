@@ -72,6 +72,7 @@ class RBTree:
     def height(self):
         return self.height_helper(self.root)
 
+    # Works ONLY if tree is already established with some depth before inserting violation
     def insert_fixup(self, root):
         while not root.p.is_black:
             if root.p == root.p.p.left:
@@ -121,9 +122,7 @@ class RBTree:
         else:
             new_node = Node(val, False)
             self.root = self.insert_helper(self.root, None, new_node)
-            if self.height() > 2:
-                print('REBALANCING')
-                self.insert_fixup(new_node)
+            self.insert_fixup(new_node)
 
     def l_rotate(self, root):
         r_child = root.right
