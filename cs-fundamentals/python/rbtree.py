@@ -61,25 +61,69 @@ class RBTree:
         if self.root is None:
             return 0
         return self.root.black_height()
-
-    def insert_fixup(self):
-        pass
-
-    def insert_helper(self, root, p, val):
+    
+    def height_helper(self, root):
         if root is None:
-            return Node(val, False, p)
-        if val < root.val:
-            root.left = self.insert_helper(root.left, root, val)
+            return 0
+        l_height = self.height_helper(root.left)
+        r_height = self.height_helper(root.right)
+        return max(l_height, r_height) + 1
+
+    def height(self):
+        return self.height_helper(self.root)
+
+    def insert_fixup(self, root):
+        while not root.p.is_black:
+            if root.p == root.p.p.left:
+                uncle = root.p.p.right
+                if not uncle.is_black:
+                    root.p.is_black = True
+                    uncle.is_black = True
+                    root.p.p.is_black = False
+                    root = root.p.p
+                elif root == root.p.right:
+                    root = root.p
+                    self.l_rotate(root)
+                else:
+                    root.p.is_black = True
+                    root.p.p.is_black = False
+                    self.r_rotate(root.p.p)
+            else:
+                uncle = root.p.p.left
+                if not uncle.is_black:
+                    root.p.is_black = True
+                    uncle.is_black = True
+                    root.p.p.is_black = False
+                    root = root.p.p
+                elif root == root.p.left:
+                    root = root.p
+                    self.r_rotate(root)
+                else:
+                    root.p.is_black = True
+                    root.p.p.is_black = False
+                    self.l_rotate(root.p.p)
+        self.root.is_black = True
+
+
+    def insert_helper(self, root, p, node):
+        if root is None:
+            node.p = p
+            return node
+        if node.val < root.val:
+            root.left = self.insert_helper(root.left, root, node)
         else:
-            root.right = self.insert_helper(root.right, root, val)
+            root.right = self.insert_helper(root.right, root, node)
         return root
 
     def insert(self, val):
         if self.root is None:
             self.root = Node(val, True)
         else:
-            self.root = self.insert_helper(self.root, None, val)
-        self.insert_fixup()
+            new_node = Node(val, False)
+            self.root = self.insert_helper(self.root, None, new_node)
+            if self.height() > 2:
+                print('REBALANCING')
+                self.insert_fixup(new_node)
 
     def l_rotate(self, root):
         r_child = root.right
@@ -112,11 +156,13 @@ class RBTree:
         root.p = l_child
 
 tree = RBTree()
-tree.insert(2)
-tree.insert(1)
+tree.root = Node(11, True, None)
+tree.root.left = Node(2, False, tree.root)
+tree.root.left.left = Node(1, True, tree.root.left)
+tree.root.left.right = Node(7, True, tree.root.left)
+tree.root.left.right.left = Node(5, False, tree.root.left.right)
+tree.root.left.right.right = Node(8, False, tree.root.left.right)
+tree.root.right = Node(14, True, tree.root)
+tree.root.right.right = Node(15, False, tree.root.right)
 tree.insert(4)
-tree.insert(3)
-tree.insert(5)
-tree.l_rotate(tree.root)
-tree.r_rotate(tree.root)
 print(tree.verbose())
