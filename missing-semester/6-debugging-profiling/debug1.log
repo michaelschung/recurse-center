@@ -1,0 +1,80 @@
+2024-12-05 11:22:04.791746-0500 0x484129   Default     0x0                  0      0    kernel: process_is_plugin_host: running binary "sudo" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validation
+2024-12-05 11:22:04.805985-0500 0x48412a   Activity    0x8f5950             46901  0    sudo: (libsystem_info.dylib) Retrieve User by ID
+2024-12-05 11:22:04.807077-0500 0x48412a   Activity    0x8f5951             46901  0    sudo: (libsystem_info.dylib) Performance impact - Resolve user group list (>17 groups)
+2024-12-05 11:22:04.807078-0500 0x48412a   Default     0x0                  46901  0    sudo: (libsystem_info.dylib) Too many groups requested (2147483647).  Can cause performance issues when network directories are involved
+2024-12-05 11:22:04.812967-0500 0x48412a   Activity    0x8f5952             46901  0    sudo: (libsystem_info.dylib) Retrieve User by Name
+2024-12-05 11:22:04.813267-0500 0x48412a   Default     0x0                  46901  0    sudo: Reading config
+2024-12-05 11:22:04.814033-0500 0x48412a   Default     0x0                  46901  0    sudo: Using original path <private>
+2024-12-05 11:22:04.814148-0500 0x48412a   Activity    0x8f5953             46901  0    sudo: (libsystem_info.dylib) Performance impact - Resolve user group list (>17 groups)
+2024-12-05 11:22:04.814148-0500 0x48412a   Default     0x0                  46901  0    sudo: (libsystem_info.dylib) Too many groups requested (2147483647).  Can cause performance issues when network directories are involved
+2024-12-05 11:22:04.815479-0500 0x48412a   Activity    0x8f5954             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.815619-0500 0x48412a   Activity    0x8f5955             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.816653-0500 0x48412a   Activity    0x8f5956             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.817426-0500 0x48412a   Activity    0x8f5957             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.819640-0500 0x48412a   Activity    0x8f5958             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.819742-0500 0x48412a   Activity    0x8f5959             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.821518-0500 0x48412a   Activity    0x8f595a             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.823243-0500 0x48412a   Activity    0x8f595b             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.825265-0500 0x48412a   Activity    0x8f595c             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.826882-0500 0x48412a   Activity    0x8f595d             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.828463-0500 0x48412a   Activity    0x8f595e             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.830142-0500 0x48412a   Activity    0x8f595f             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.831936-0500 0x48412a   Activity    0x8f5960             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.833625-0500 0x48412a   Activity    0x8f5961             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.835121-0500 0x48412a   Activity    0x8f5962             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.836799-0500 0x48412a   Activity    0x8f5963             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.837331-0500 0x48412a   Activity    0x8f5964             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.839051-0500 0x48412a   Activity    0x8f5965             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.840643-0500 0x48412a   Activity    0x8f5966             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.842293-0500 0x48412a   Activity    0x8f5967             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.843912-0500 0x48412a   Activity    0x8f5968             46901  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:04.852503-0500 0x48412a   Activity    0x8f5969             46901  0    sudo: (CFOpenDirectory) Open a given node
+2024-12-05 11:22:04.853072-0500 0x48412a   Default     0x8f5969             46901  0    sudo: (libxpc.dylib) [com.apple.xpc:connection] [0x60000006c1e0] activating connection: mach=true listener=false peer=false name=com.apple.system.opendirectoryd.api
+2024-12-05 11:22:04.853517-0500 0x48412a   Activity    0x8f596a             46901  0    sudo: (CFOpenDirectory) Copy nodenames that are currently unreachable
+2024-12-05 11:22:04.853675-0500 0x48412a   Activity    0x8f596b             46901  0    sudo: (CFOpenDirectory) Retrieve record from node
+2024-12-05 11:22:04.853677-0500 0x48412a   Activity    0x8f596c             46901  0    sudo: (CFOpenDirectory) Querying records from directories
+2024-12-05 11:22:04.854873-0500 0x48412a   Activity    0x8f596d             46901  0    sudo: (CFOpenDirectory) Open a given node
+2024-12-05 11:22:04.854888-0500 0x48412a   Activity    0x8f596e             46901  0    sudo: (CFOpenDirectory) Querying records from directories
+2024-12-05 11:22:04.857622-0500 0x48412a   Default     0x0                  46901  0    sudo: (libxpc.dylib) [com.apple.xpc:connection] [0x60000006c690] activating connection: mach=true listener=false peer=false name=com.apple.CryptoTokenKit.AuthenticationHintsProvider.daemon.libxpc
+2024-12-05 11:22:04.858984-0500 0x48412a   Default     0x0                  46901  0    sudo: (libxpc.dylib) [com.apple.xpc:connection] [0x60000006c690] invalidated after the last release of the connection object
+2024-12-05 11:22:04.858991-0500 0x48412a   Default     0x0                  46901  0    sudo: (libpam.2.dylib) in pam_sm_authenticate(): SmartCard - User michaelchung is not paired with any smartcard.
+2024-12-05 11:22:04.858995-0500 0x48412a   Activity    0x8f596f             46901  0    sudo: (CFOpenDirectory) Closing a node reference
+2024-12-05 11:22:08.655320-0500 0x48412a   Activity    0x8f5970             46901  0    sudo: (CFOpenDirectory) Open a given node
+2024-12-05 11:22:08.656560-0500 0x48412a   Activity    0x8f5971             46901  0    sudo: (CFOpenDirectory) Copy nodenames that are currently unreachable
+2024-12-05 11:22:08.657346-0500 0x48412a   Activity    0x8f5972             46901  0    sudo: (CFOpenDirectory) Retrieve record from node
+2024-12-05 11:22:08.657349-0500 0x48412a   Activity    0x8f5973             46901  0    sudo: (CFOpenDirectory) Querying records from directories
+2024-12-05 11:22:08.661307-0500 0x48412a   Activity    0x8f5974             46901  0    sudo: (CFOpenDirectory) Verify basic credentials
+2024-12-05 11:22:08.661310-0500 0x48412a   Activity    0x8f5975             46901  0    sudo: (CFOpenDirectory) Open a given node
+2024-12-05 11:22:08.661756-0500 0x48412a   Activity    0x8f5976             46901  0    sudo: (CFOpenDirectory) Set the credentials used for node operations
+2024-12-05 11:22:08.661766-0500 0x48412a   Activity    0x8f5977             46901  0    sudo: (CFOpenDirectory) Closing a node reference
+2024-12-05 11:22:08.805701-0500 0x48412a   Activity    0x8f5978             46901  0    sudo: (CFOpenDirectory) Closing a node reference
+2024-12-05 11:22:27.460225-0500 0x484223   Default     0x0                  0      0    kernel: process_is_plugin_host: running binary "sudo" in keys-off mode due to entitlement: com.apple.private.security.clear-library-validation
+2024-12-05 11:22:27.473532-0500 0x484224   Activity    0x8f5af0             46946  0    sudo: (libsystem_info.dylib) Retrieve User by ID
+2024-12-05 11:22:27.474401-0500 0x484224   Activity    0x8f5af1             46946  0    sudo: (libsystem_info.dylib) Performance impact - Resolve user group list (>17 groups)
+2024-12-05 11:22:27.474402-0500 0x484224   Default     0x0                  46946  0    sudo: (libsystem_info.dylib) Too many groups requested (2147483647).  Can cause performance issues when network directories are involved
+2024-12-05 11:22:27.476071-0500 0x484224   Activity    0x8f5af2             46946  0    sudo: (libsystem_info.dylib) Retrieve User by Name
+2024-12-05 11:22:27.476290-0500 0x484224   Default     0x0                  46946  0    sudo: Reading config
+2024-12-05 11:22:27.476517-0500 0x484224   Default     0x0                  46946  0    sudo: Using original path <private>
+2024-12-05 11:22:27.476645-0500 0x484224   Activity    0x8f5af3             46946  0    sudo: (libsystem_info.dylib) Performance impact - Resolve user group list (>17 groups)
+2024-12-05 11:22:27.476646-0500 0x484224   Default     0x0                  46946  0    sudo: (libsystem_info.dylib) Too many groups requested (2147483647).  Can cause performance issues when network directories are involved
+2024-12-05 11:22:27.477369-0500 0x484224   Activity    0x8f5af4             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.477487-0500 0x484224   Activity    0x8f5af5             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.477581-0500 0x484224   Activity    0x8f5af6             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.477667-0500 0x484224   Activity    0x8f5af7             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.477761-0500 0x484224   Activity    0x8f5af8             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.477849-0500 0x484224   Activity    0x8f5af9             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.477935-0500 0x484224   Activity    0x8f5afa             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478020-0500 0x484224   Activity    0x8f5afb             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478105-0500 0x484224   Activity    0x8f5afc             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478192-0500 0x484224   Activity    0x8f5afd             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478271-0500 0x484224   Activity    0x8f5afe             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478373-0500 0x484224   Activity    0x8f5aff             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478457-0500 0x484224   Activity    0x8f5b00             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478570-0500 0x484224   Activity    0x8f5b01             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478655-0500 0x484224   Activity    0x8f5b02             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478738-0500 0x484224   Activity    0x8f5b03             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478830-0500 0x484224   Activity    0x8f5b04             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478915-0500 0x484224   Activity    0x8f5b05             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.478998-0500 0x484224   Activity    0x8f5b06             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.479082-0500 0x484224   Activity    0x8f5b07             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
+2024-12-05 11:22:27.479165-0500 0x484224   Activity    0x8f5b08             46946  0    sudo: (libsystem_info.dylib) Retrieve Group by ID
