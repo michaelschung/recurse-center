@@ -38,10 +38,11 @@ class Node:
 class RBTree:
     def __init__(self):
         self.root = None
+        self.nil = Node(None, True)
         self.size = 0
 
     def repr_helper(self, root, verbose=False):
-        if root is None:
+        if root is self.nil:
             return ''
         l_str = self.repr_helper(root.left, verbose)
         r_str = self.repr_helper(root.right, verbose)
@@ -75,6 +76,7 @@ class RBTree:
     # Works ONLY if tree is already established with some depth before inserting violation
     def insert_fixup(self, root):
         while not root.p.is_black:
+            # If parent is a left child
             if root.p == root.p.p.left:
                 uncle = root.p.p.right
                 if not uncle.is_black:
@@ -89,6 +91,7 @@ class RBTree:
                     root.p.is_black = True
                     root.p.p.is_black = False
                     self.r_rotate(root.p.p)
+            # If parent is a right child
             else:
                 uncle = root.p.p.left
                 if not uncle.is_black:
@@ -107,7 +110,7 @@ class RBTree:
 
 
     def insert_helper(self, root, p, node):
-        if root is None:
+        if root is self.nil:
             node.p = p
             return node
         if node.val < root.val:
@@ -118,19 +121,23 @@ class RBTree:
 
     def insert(self, val):
         if self.root is None:
-            self.root = Node(val, True)
+            self.root = Node(val, True, self.nil)
+            self.root.left = self.nil
+            self.root.right = self.nil
         else:
             new_node = Node(val, False)
+            new_node.left = self.nil
+            new_node.right = self.nil
             self.root = self.insert_helper(self.root, None, new_node)
             self.insert_fixup(new_node)
 
     def l_rotate(self, root):
         r_child = root.right
         root.right = r_child.left
-        if r_child.left is not None:
+        if r_child.left is not self.nil:
             r_child.left.p = root
         r_child.p = root.p
-        if root.p is None:
+        if root.p is self.nil:
             self.root = r_child
         elif root == root.p.left:
             root.p.left = r_child
@@ -142,10 +149,10 @@ class RBTree:
     def r_rotate(self, root):
         l_child = root.left
         root.left = l_child.right
-        if l_child.right is not None:
+        if l_child.right is not self.nil:
             l_child.right.p = root
         l_child.p = root.p
-        if root.p is None:
+        if root.p is self.nil:
             self.root = l_child
         elif root == root.p.right:
             root.p.right = l_child
@@ -155,13 +162,13 @@ class RBTree:
         root.p = l_child
 
 tree = RBTree()
-tree.root = Node(11, True, None)
-tree.root.left = Node(2, False, tree.root)
-tree.root.left.left = Node(1, True, tree.root.left)
-tree.root.left.right = Node(7, True, tree.root.left)
-tree.root.left.right.left = Node(5, False, tree.root.left.right)
-tree.root.left.right.right = Node(8, False, tree.root.left.right)
-tree.root.right = Node(14, True, tree.root)
-tree.root.right.right = Node(15, False, tree.root.right)
+tree.insert(11)
+tree.insert(2)
+tree.insert(14)
+tree.insert(1)
+tree.insert(7)
+tree.insert(15)
+tree.insert(5)
+tree.insert(8)
 tree.insert(4)
 print(tree.verbose())
